@@ -3,6 +3,8 @@ const { test, expect } = require('@playwright/test')
 //test.describe.configure({mode:'parallel'});
 //test.describe.configure({mode:'serial'});
 
+
+
 test("@Web Popup validations", async ({ page }) => {
     await page.goto("https://rahulshettyacademy.com/AutomationPractice/");
 
