@@ -6,4 +6,3 @@ module.exports = { default: '--publish-quiet' }
 
 //npx cucumber-js --tags "@Regression" --retry 1 --exit --format html:cucumber-report.html
 
-
